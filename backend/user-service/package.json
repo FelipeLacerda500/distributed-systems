@@ -1,0 +1,45 @@
+{
+  "name": "user-service",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch src/server/server.ts",
+    "precommit-lint": "lint-staged",
+    "prepare": "husky",
+    "migrate": "prisma migrate dev --name create-users",
+    "build": "tsup src --out-dir dist --minify --clean"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@eslint/js": "9.9.0",
+    "@types/eslint__js": "8.42.3",
+    "@types/node": "22.5.0",
+    "@typescript-eslint/eslint-plugin": "8.2.0",
+    "@typescript-eslint/parser": "8.2.0",
+    "eslint": "8.57.0",
+    "eslint-config-prettier": "9.1.0",
+    "eslint-import-resolver-typescript": "3.6.1",
+    "eslint-plugin-import": "2.29.1",
+    "eslint-plugin-prettier": "5.2.1",
+    "husky": "9.1.5",
+    "lint-staged": "15.2.9",
+    "prettier": "3.3.3",
+    "prisma": "5.18.0",
+    "tsup": "8.2.4",
+    "tsx": "4.17.0",
+    "typescript": "5.5.4",
+    "typescript-eslint": "8.2.0"
+  },
+  "dependencies": {
+    "@fastify/cors": "11.2.0",
+    "@fastify/jwt": "10.0.0",
+    "@fastify/websocket": "11.2.0",
+    "@prisma/client": "5.18.0",
+    "bcryptjs": "3.0.3",
+    "dayjs": "1.11.13",
+    "dotenv": "16.4.5",
+    "fastify": "5.6.2",
+    "jsonwebtoken": "9.0.3",
+    "zod": "3.23.8"
+  }
+}
