@@ -13,12 +13,6 @@
 
 ## Guia de execução
 
-**1. Clonar o Repositório**
-
-```bash
-git clone https://github.com/FelipeLacerda500/expense-tracker-api.git
-```
-
 **2. Navegar até o Diretório do Projeto**
 
 ```bash
