@@ -1,11 +1,9 @@
-# Expense Tracker API
+# CHAT
 
 #### Grupo 1: Clean Architecture com TypeScript e Node.js
 
-- ALÉXIA CORDEIRO OLIVEIRA (20213008587)
+- GISELE NUBIA SANTOS OLIVEIRA (20213010431)
 - FELIPE LACERDA FERNANDES DE ASSIS (20183025885)
-- IAN CARLOS AFONSO DA SILVA (201612040128)
-- SAMYRIS ALVES RODRIGUES (20203008799)
 
 ## Requisitos
 
@@ -24,7 +22,7 @@ git clone https://github.com/FelipeLacerda500/expense-tracker-api.git
 **2. Navegar até o Diretório do Projeto**
 
 ```bash
-cd expense-tracker-api
+cd message-service
 ```
 
 **3. Instalar Dependências**
@@ -44,15 +42,3 @@ npm run migrate
 ```bash
 npm run dev
 ```
-
-## Rotas da API
-
-- `GET /`: Listar todas as despesas.
-
-- `GET /metrics`: Obter as métricas diárias e mensais das despesas.
-
-- `GET /query`: Pesquisar por despesas baseadas no nome do produto/serviço associado à despesa ou no nome da pessoa que realizou o cadastro.
-
-- `POST /`: Criar uma nova despesa.
-
-- `DELETE /`: Deletar uma despesa com base no id.
