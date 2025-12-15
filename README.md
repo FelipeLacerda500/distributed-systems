@@ -44,7 +44,7 @@ npm run dev
 **6. Navegar até o Diretório do Serviço de Mensagens**
 
 ```bash
-cd cd ./distributed-systems/backend/message-service
+cd ./distributed-systems/backend/message-service
 ```
 
 **7. Instalar Dependências para o Serviço de Mensagens**
@@ -68,7 +68,7 @@ npm run dev
 **10. Navegar até o Diretório das Interfaces (front-end)**
 
 ```bash
-cd cd ./distributed-systems/frontend/chat-frontend
+cd ./distributed-systems/frontend/chat-frontend
 ```
 
 **11. Instalar Dependências para as Interfaces (front-end)**
